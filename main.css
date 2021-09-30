@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+nav {
+    background-color: #444;
+    padding: 0.1rem 0.2rem;
+}
+
+nav>ul {
+    list-style: none;
+    margin: 1rem;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0.5rem;
+    color: white;
+}
+
+nav li a {
+    color: rgb(106, 185, 255);
+}
+
+article {
+    display: grid;
+}
+
+header {
+    height: 50vh;;
+    width: auto;
+    padding: 1.5rem 10vw;
+}
+
+header h1 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author > * {
+    padding: 0.25rem 0.5rem;
+    font-style: italic;
+}
+
+.author img {
+    aspect-ratio: 1/1;
+    height: 75px;
+    border-radius: 50%;
+}
