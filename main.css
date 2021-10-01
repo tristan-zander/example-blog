@@ -5,6 +5,10 @@ body {
   font-size: 18px;
 }
 
+.serif {
+    font-family: "Poppins", serif;
+}
+
 nav {
   background-color: #444;
   padding: 0.1em 0.2em;
@@ -27,7 +31,6 @@ nav li a {
 }
 
 header {
-  font-family: "Poppins", sans-serif;
   width: 45vw;
   margin: 1.5em 0 1.5em 30vw;
 }
@@ -71,7 +74,6 @@ section {
 }
 
 aside {
-  font-family: "Poppins";
   font-size: 1.25em;
   width: 30vw;
   display: flex;
